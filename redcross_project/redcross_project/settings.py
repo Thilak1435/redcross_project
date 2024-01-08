@@ -90,7 +90,7 @@ WSGI_APPLICATION = 'redcross_project.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'database-1',
+        'NAME': 'myproject',
         'PORT': '3306',
         'HOST':'localhost',
         'USER':'root',
